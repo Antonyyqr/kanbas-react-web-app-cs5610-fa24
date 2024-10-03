@@ -73,15 +73,11 @@ export default function KanbasNavigation() {
         <br />
         Inbox{" "}
       </Link>
-      <Link
-        to="/Kanbas/Labs"
-        id="wd-labs-link"
-        className={getLinkClass("/Kanbas/Labs")}
-      >
+      <Link to="/Labs" id="wd-labs-link" className={getLinkClass("/Labs")}>
         <LiaCogSolid className="fs-1 text-danger" />
         <br />
         Labs{" "}
-      </Link>
+      </Link>{" "}
     </div>
   );
 }
