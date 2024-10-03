@@ -93,19 +93,18 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function AssignmentEditor() {
   // State variables for form controls
-  const [assignmentName, setAssignmentName] = useState < string > "A1";
-  const [description, setDescription] =
-    useState <
-    string >
-    "The assignment is available online. Submit a link to the landing page of your Web application running on Netlify.";
-  const [points, setPoints] = useState < number > 100;
-  const [group, setGroup] = useState < string > "Group 1";
-  const [displayGradeAs, setDisplayGradeAs] = useState < string > "Percentage";
-  const [submissionType, setSubmissionType] = useState < string > "Online";
-  const [assignTo, setAssignTo] = useState < string > "Everyone";
-  const [dueDate, setDueDate] = useState < string > "2021-05-20";
-  const [availableFrom, setAvailableFrom] = useState < string > "2021-05-20";
-  const [availableUntil, setAvailableUntil] = useState < string > "2021-05-27";
+  const [assignmentName, setAssignmentName] = useState("A1");
+  const [description, setDescription] = useState(
+    "The assignment is available online. Submit a link to the landing page of your Web application running on Netlify."
+  );
+  const [points, setPoints] = useState(100);
+  const [group, setGroup] = useState("Group 1");
+  const [displayGradeAs, setDisplayGradeAs] = useState("Percentage");
+  const [submissionType, setSubmissionType] = useState("Online");
+  const [assignTo, setAssignTo] = useState("Everyone");
+  const [dueDate, setDueDate] = useState("2021-05-20");
+  const [availableFrom, setAvailableFrom] = useState("2021-05-20");
+  const [availableUntil, setAvailableUntil] = useState("2021-05-27");
 
   return (
     <div className="container mt-4">
