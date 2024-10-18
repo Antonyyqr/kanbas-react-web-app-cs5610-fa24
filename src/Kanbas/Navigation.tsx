@@ -76,8 +76,8 @@ export default function KanbasNavigation() {
       <Link to="/Labs" id="wd-labs-link" className={getLinkClass("/Labs")}>
         <LiaCogSolid className="fs-1 text-danger" />
         <br />
-        Labs{" "}
-      </Link>{" "}
+        Labs
+      </Link>
     </div>
   );
 }
